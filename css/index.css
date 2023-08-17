@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2? family= Marko+One & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Marcellus & display=swap');
+
+
+.body{
+    margin: 0px;
+}
+
+.title {
+    background-color: #242C93;
+    width: 100%;
+    height: 64px;
+    padding-top: 15px;
+}
+.title h1 {
+    width: 706px;
+    height: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Marko One', serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 350px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.icon img {
+    width: 190px;
+    height: 90px;
+}
+
+main .menu-navigation ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 5px;
+    padding-top: 44px;
+}
+
+.menu-navigation ul li a{
+    text-decoration: none;
+    color: #EFC600;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    font-weight: 400; 
+    padding-right: 30px; 
+}
+
+/* ESTILOS DE LOS ICONOS  */
+
+.icons-navigation {
+    display: flex;
+    margin-left: 120px;
+    padding-top: 46px;
+}
+
+.icons-navigation div {
+    display: flex;
+}
+
+.icons-navigation img {
+    width: 20px;
+    height: 24px;
+    margin-right: 25px;
+}
+
+.icons-navigation h4 {
+    width: 80px;
+    height: 24px;
+    color: #000;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+}
+/* ESTILOS DEL NAV  */
+.container-fluid{
+    width: 100%;
+}
+#subtitle {
+    color: red;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.offerts h2 {
+    color: #1C2C7C;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.offerts h3 {
+    color: #1C2C7C;
+    font-weight: 900;
+    font-size: 40px;
+}
+#delivery {
+    color: #1C2C7C;
+    font-size: 60px;
+    font-weight: 900;
+}
+.banner  {
+    height: 500px;
+}
+.offerts  {
+    padding-top: 60px;
+    text-align: center;
+}
+/* ESTILOS DEL SECTION 01 */
+
+.sessions h1 {
+    width: 256px;
+    height: 44px;
+    color: #000;
+    font-family: 'Marcellus', serif;
+    font-size: 40px;
+    padding-left: 550px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.grid-categories {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.grid-categories div{
+    width: 233px;
+    height: 370px;
+    margin-right: 42px;
+}
+
+.grid-categories div a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 65px;
+}
+/* ESTILOS DEL CARDS */
+
+.products {
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    margin-left: 170px;
+    margin-bottom: 30px;
+}
+
+.products .cards-products {
+    background-color: #e6e6e7;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+    height: 500px;
+}
+
+.products .cards-products img{
+    height: 250px;
+    padding-left: 60px;
+    margin-top: 15px;    
+}
+
+.products .store-name {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0;
+    padding: 17px 6px;
+    padding-bottom: 0;
+    text-align: left;
+    color: #666;
+}
+
+.products .cards-products  h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+    margin-top: 11px;
+    margin-left: 6px;
+    min-height: 35px;
+    text-align: left;
+}
+
+.products .cards-products p {
+    margin-top: 15px;
+}
+
+/* ESTILOS DE LOS PRECIOS */
+
+/* primero */
+
+.cards-products .antes{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes:before {
+    content: "S/59.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora:before {
+    content: "S/59.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold
+}
+
+/* segundo */
+
+.cards-products .antes1{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes1:before {
+    content: "S/49.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora1{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora1:before {
+    content: "S/29.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold
+}
+
+/* tercero */
+.cards-products .antes2{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes2:before {
+    content: "S/69.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora2 {
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora2:before {
+    content: "S/59.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold
+}
+/* cuarto */
+.cards-products .antes3{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes3:before {
+    content: "S/89.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora3{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora3:before {
+    content: "S/49.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold
+}
+/* quinto */
+.cards-products .antes4 {
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes4:before {
+    content: "S/39.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora4{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora4:before {
+    content: "S/29.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold;
+}
+/* sexto */
+.cards-products .antes5 {
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes5:before {
+    content: "S/89.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora5{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora5:before {
+    content: "S/79.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold;
+}
+
+/* ESTILOS DEL BUTTOM */
+.cards-products button {
+    background-color: #ff0b0b;
+    color: #F4F4F4;
+    border: 2px solid red ;
+    border-radius: 7px;
+    margin-left: 110px;
+}
+/* estilos del footer */
+
+.grid-footer { 
+    height: 519px;
+    color: #FFF;
+    background-color: #1C2C7C;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+
+.grid-footer h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 34px;
+    margin-bottom: 30px;
+}
+
+.nosotros p {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.grid-footer .nosotros  {
+    width: 280px;
+    margin-left: 15px;
+}
+.nosotros .payment-methods {
+    display: flex;
+}
+.title-payment-methods { 
+    margin: 0px;
+    padding-left: 20spx;
+
+}
+
+.grid-footer .links-interest ul a {
+    text-decoration: none;
+    color: #F4F4F4;
+    font-family: 'Marcellus', serif;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.grid-footer .links-interest ul li {
+    margin-bottom: 22px;
+    margin-left: 60px;
+}
+
+.grid-footer .contacts {
+    text-align: center;
+}
+.icons button{
+    background-color: #1C2C7C;
+    border: none;
+}
+
+.copyright {
+    text-align: center;
+    height: 62px;
+
+}
+.copyright h1 {
+    color: #000;
+    font-family: 'Marcellus', serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 16px;
+}
